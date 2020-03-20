@@ -7,7 +7,6 @@ tasks:
         read -s -p "SAUCE_USERNAME: " SAUCE_USERNAME ;
       done ; gp env SAUCE_USERNAME=$SAUCE_USERNAME && printf "\nThanks\n"
       # Now you can use $SAUCE_USERNAME
-  - command: >
       while [ -z "$SAUCE_ACCESS_KEY" ] ; do
         printf "\n❗ The SAUCE_ACCESS_KEY environment variable is required. Please enter its value.\n" &&
         read -s -p "SAUCE_ACCESS_KEY: " SAUCE_ACCESS_KEY ;
