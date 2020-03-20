@@ -2,10 +2,16 @@ tasks:
   - init: yarn install && yarn run build
     command: yarn run start
   - command: >
-      while [ -z "$TOKEN" ] ; do
-        printf "\n❗ The TOKEN environment variable is required. Please enter its value.\n" &&
-        read -s -p "TOKEN: " TOKEN ;
-      done ; gp env TOKEN=$TOKEN && printf "\nThanks\n"
-      # Now you can use $TOKEN
+      while [ -z "$SAUCE_USERNAME" ] ; do
+        printf "\n❗ The SAUCE_USERNAME environment variable is required. Please enter its value.\n" &&
+        read -s -p "SAUCE_USERNAME: " SAUCE_USERNAME ;
+      done ; gp env SAUCE_USERNAME=$SAUCE_USERNAME && printf "\nThanks\n"
+      # Now you can use $SAUCE_USERNAME
+  - command: >
+      while [ -z "$SAUCE_ACCESS_KEY" ] ; do
+        printf "\n❗ The SAUCE_ACCESS_KEY environment variable is required. Please enter its value.\n" &&
+        read -s -p "SAUCE_ACCESS_KEY: " SAUCE_ACCESS_KEY ;
+      done ; gp env SAUCE_ACCESS_KEY=$SAUCE_ACCESS_KEY && printf "\nThanks\n"
+      # Now you can use $SAUCE_ACCESS_KEY
 image:
   file: .gitpod.Dockerfile
