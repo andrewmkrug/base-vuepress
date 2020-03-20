@@ -1,5 +1,11 @@
 tasks:
   - init: yarn install && yarn run build
     command: yarn run start
+  - command: >
+      while [ -z "$TOKEN" ] ; do
+        printf "\n❗ The TOKEN environment variable is required. Please enter its value.\n" &&
+        read -s -p "TOKEN: " TOKEN ;
+      done ; gp env TOKEN=$TOKEN && printf "\nThanks\n"
+      # Now you can use $TOKEN
 image:
   file: .gitpod.Dockerfile
