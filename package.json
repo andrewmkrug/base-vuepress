@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "glossarify-md": "^3.5.0",
-    "vuepress": "^1.4.0",
+    "vuepress": "^1.5.3",
     "vuepress-plugin-code-switcher": "^1.0.3",
     "vuepress-plugin-export": "^0.2.0",
     "vuepress-theme-yuu": "^2.2.1",
