@@ -999,6 +999,13 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
+"@vuepress/plugin-active-header-links@^1.3.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.7.1.tgz#5a16281bebb977fc1c2b93d992b1a3b7ff840641"
+  integrity sha512-Wgf/oB9oPZLnYoLjQ/xbQc4Qa3RU5tXAo2dB4Xl/7bUL6SqBxO866kX3wPxKdSOIL58tq8iH9XbUe3Sxi8/ISQ==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-active-header-links@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.4.0.tgz#b43fdad67ef42c383a84642f7914e22c56189089"
@@ -1006,10 +1013,10 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.4.0.tgz#baca4daf8de469544956bb21903dbeba691d40e4"
-  integrity sha512-tFsFx/jIoCh3hKWIDYioQyqhF+OJ+3QYAyPSJsvIadmOiS1Op33MlPVurWxr+J5hGlsvnOEyQqT9++mGh3N2KA==
+"@vuepress/plugin-back-to-top@^1.3.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.7.1.tgz#8bdc4a2de95f8244f167b3b3066c2610b88aabeb"
+  integrity sha512-Hw/5kQjqtkHEstifcq4gpdVwS38C3ecruLCUibq3YEES6DJUYZ8tN1oo3FTugYgpXsyn3HxWftyalozcZ2IutA==
   dependencies:
     lodash.debounce "^4.0.8"
 
@@ -1020,10 +1027,10 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.4.0.tgz#42017b3c88f0a08a5070208219ea14371ca7170f"
-  integrity sha512-PkGSZa2LLrGN1V4KJ/p2/Mp9kUx7sCqXRaL3CG1ku+Lr2vgBzbcsCXXsJLszhm6ZyvBHus7hJpZxrx87n++IOg==
+"@vuepress/plugin-medium-zoom@^1.3.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.7.1.tgz#170598bba9941dbd047cffaa659023db8f46e337"
+  integrity sha512-pYI6myr4bi9SYzvR6D4r7+YpjpXgudCbontXKZIARS7hJ+kVBapVYnetrbeNFKq+7a/QGOkAuAK2j39dQLaMXQ==
   dependencies:
     medium-zoom "^1.0.4"
 
@@ -6113,9 +6120,9 @@ pretty-time@^1.1.0:
   integrity sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==
 
 prismjs@^1.13.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.19.0.tgz#713afbd45c3baca4b321569f2df39e17e729d4dc"
-  integrity sha512-IVFtbW9mCWm9eOIaEkNyo2Vl4NnEifis2GQ7/MLRG5TQe6t+4Sj9J5QWI9i3v+SS43uZBlCAOn+zYTVYQcPXJw==
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
