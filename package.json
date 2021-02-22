@@ -9,7 +9,7 @@
     "docs:pdf": "npm run build docs && vuepress export docs"
   },
   "dependencies": {
-    "glossarify-md": "^3.5.0",
+    "glossarify-md": "^5.0.1",
     "vuepress": "^1.4.0",
     "vuepress-plugin-code-switcher": "^1.0.3",
     "vuepress-plugin-export": "^0.2.0",
