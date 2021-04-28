@@ -1,0 +1,39 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: glossarify-md
+    versions:
+    - 5.0.0
+    - 5.0.1
+    - 5.1.0
+  - dependency-name: "@vuepress/plugin-active-header-links"
+    versions:
+    - 1.8.0
+    - 1.8.1
+  - dependency-name: "@vuepress/plugin-medium-zoom"
+    versions:
+    - 1.8.0
+    - 1.8.1
+  - dependency-name: "@vuepress/plugin-back-to-top"
+    versions:
+    - 1.8.0
+    - 1.8.1
+  - dependency-name: vuepress
+    versions:
+    - 1.8.0
+    - 1.8.1
+  - dependency-name: vuepress-theme-yuu
+    versions:
+    - 3.0.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
